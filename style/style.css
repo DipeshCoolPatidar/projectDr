@@ -1,0 +1,936 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+
+    font-size: 16px;
+    background-color: #f1f4f6;
+    font-weight: 400;
+}
+.container {
+    width: 1150px;
+    margin: auto;
+}
+/* Top Heading Section Start*/
+header {
+    background-color: #223a66;
+    color: #fff;
+}
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0;
+}
+
+.left-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+
+.list-item {
+    list-style: none;
+    color: #fff;
+    padding-left: 30px;
+    font-size: 14px;
+
+}
+
+.list-item i {
+    padding-right: 10px;
+}
+
+.list-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.right-top-heaging a {
+    text-decoration: none;
+
+}
+
+.right-top-heaging a span {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+
+}
+
+.call-num {
+    font-size: 1.1rem;
+    line-height: 30px;
+    font-family: "Exo 2", sans-serif;
+}
+/* Top Heading Section end*/
+/* navigation section star*/
+nav {
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+
+.nav-menu li {
+    padding: 20px;
+    list-style: none;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #222;
+    font-family: "Exo 2", sans-serif;
+}
+/* navigation section end*/
+/*banner section start*/
+#banner {
+    background: url(../image/home-banner.jpg) no-repeat center top/cover;
+    height: 550px;
+}
+
+.banner-conten {
+    padding-top: 70px;
+    width: 50%;
+}
+
+.divider {
+    width: 40px;
+    height: 5px;
+    background-color: #e12454;
+    margin-bottom: 25px;
+}
+
+.sub-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #6F8BA4;
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
+
+.banner-conten h1 {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #223a66;
+    padding-top: 10px;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+}
+
+.banner-conten p {
+    padding: 20px 0;
+    line-height: 30px;
+    color: #6F8BA4;
+    font-weight: 400;
+}
+
+.appoiment-btn {
+    padding-top: 25px;
+}
+
+.appoiment-btn a {
+    background-color: #e12454;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all .35s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.appoiment-btn a:hover {
+    background-color: #223a66;
+
+}
+/*banner section end */
+/* Features Section start*/
+#features {
+    background-color: #f4f9fc;
+}
+
+.row {
+    position: relative;
+    top: -70px;
+}
+
+.card-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row .box {
+    width: 31%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.box .card1 {
+    padding: 30px;
+}
+
+.icon {
+    color: #223a66;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.sub-title span {
+    padding: 40px 0;
+}
+
+.box h4 {
+    padding: 5px 0 20px 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #223a66;
+}
+
+.box p {
+    line-height: 30px;
+    opacity: 0.6;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.box-appoiment-btn {
+    padding-bottom: 50px;
+}
+
+.box-appoiment-btn a {
+    background-color: #223a66;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all .35s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.box .card2 {
+    padding: 30px;
+}
+
+.card2 li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    opacity: 0.6;
+    border-bottom: 0.4px solid #dae0e5;
+}
+
+.box .card3 {
+    padding: 30px;
+}
+
+.card3 h4 {
+    color: #223a66;
+    font-size: 1.4rem;
+    line-height: 30px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+}
+/* Features Section end */
+/* Personal-Care Section start */
+#personal-care {
+    margin-top: 400px;
+}
+
+.care-section {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.colm {
+    width: 33%;
+}
+
+.colm1-img {
+    width: 350px;
+    height: auto;
+}
+
+.colm1-img .image1 {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.colm2-img {
+    width: 350px;
+    height: 480px;
+    margin-top: 85px;
+
+}
+
+.colm2-img .image2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    justify-items: left;
+}
+
+.colm3-box {
+    margin-left: 20px;
+    margin-top: 180px;
+}
+
+.colm3-box h2 {
+    color: #223a66;
+    font-family: "Exo 2", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.colm3-box p {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F8BA4;
+    padding: 35px 0;
+}
+
+.care-services-btn {
+    padding-top: 20px;
+}
+
+.care-services-btn a {
+    background-color: #e12454;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all .35s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.care-services-btn a:hover {
+    background-color: #223a66;
+}
+/* Personal-Care Section end */
+/*counter section start*/
+.counter-img {
+    width: 100%;
+    padding-top: 70px;
+}
+
+.counter-img .demo-counter {
+    width: 100%;
+}
+
+.counter-img .demo2-counter {
+    width: 100%;
+    display: none;
+}
+/*counter section end*/
+/* Award section start */
+#award {
+    margin-top: 70px;
+}
+
+.award-section1 {
+    width: 665px;
+    margin: auto;
+}
+
+.award-head {
+    text-align: center;
+}
+
+.award-head h2 {
+    color: #223a66;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Exo 2", sans-serif;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.award-head .divider {
+    margin: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.award-head p {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F8BA4;
+    margin-bottom: 1rem;
+}
+
+.award-main-card {
+    width: 350px;
+    height: auto;
+    padding: 30px;
+    background-color: #fff;
+    margin: 15px;
+}
+
+.award-card {
+    display: flex;
+    width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.award-icon i {
+    color: #e12454;
+    font-size: 50px;
+}
+
+.card-head {
+    padding-left: 20px;
+    font-size: 1.3rem;
+    line-height: 30px;
+    color: #222;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 1rem;
+}
+
+.award-main-card p {
+    margin-bottom: 24px;
+    color: #6F8BA4;
+}
+
+.award-section2 {
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    /* margin: 20px;*/
+    padding-bottom: 75px;
+}
+/* Award section end */
+/* Appoiment section start*/
+#appoinment {
+    background-color: #fff;
+
+}
+
+.appoiment-row {
+    display: flex;
+    padding: 100px 0;
+}
+
+.appoiment-row-conten1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.appoiment-img {
+    width: 85%;
+    height: auto;
+}
+
+.appoiment-img img {
+    width: 100%;
+    height: auto;
+}
+
+.appo-image {
+    width: 100%;
+    height: auto;
+}
+
+.appoiment-img .emergency {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.emergency h2 {
+    padding: 52px;
+    background-color: #223a66;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: "Exo 2", sans-serif;
+    line-height: 1.2;
+}
+
+/* Appoiment second part*/
+.appoiment-row-conten2 {
+    width: 100%;
+    margin-top: 20px;
+}
+.appoiment-heading-form h2 {
+    color: #223a66;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Exo 2", sans-serif;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    margin-left: 20px;
+}
+
+.appoiment-heading-form p {
+    margin-bottom: 1.5rem;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F8BA4;
+    margin-left: 20px;
+}
+
+.appoiment-form {
+    margin-top: 40px;
+    width: 100%
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-colom {
+    margin: 8px 15px;
+    width: 43%;
+}
+
+.form-group-2 {
+    width: 91%;
+    margin: auto;
+
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+.form-control {
+    height: 55px;
+    background-color: #f4f9fc;
+    border-color: rgba(0, 0, 0, 0.05);
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+select {
+    word-wrap: normal;
+    text-transform: none;
+    font-family: inherit;
+}
+
+.appoiment-form .appoiment-form-btn {
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.appoiment-form-btn a {
+    background-color: #223a66;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all .35s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-family: "Exo 2", sans-serif;
+
+}
+
+.appoiment-form-btn a:hover {
+    background-color: #e12454;
+}
+/* Appoiment section end*/
+/* patients section start*/
+
+.patient-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.patient-box1-conten {
+    width: 50%;
+    text-align: center;
+}
+
+.patient-box1-conten h2 {
+    color: #223a66;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Exo 2", sans-serif;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.patient-box1-conten .divider {
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.patient-box1-conten p {
+    margin-bottom: 4.5rem;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F8BA4;
+
+}
+
+/* patients section bottom*/
+.patient-box2 {
+    padding-bottom: 75px;
+
+}
+
+.patient-row {
+    display: flex;
+    width: 95%;
+    margin: auto;
+
+}
+
+.row-box1 {
+    width: 49%;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.box1-image-detail {
+    display: flex;
+
+}
+
+.box1-image-detail img {
+    border-radius: 50%;
+    width: 120px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.image-box-conten h4 {
+    color: #222;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: "Exo 2", sans-serif;
+    padding-top: 20px;
+}
+
+.image-box-conten span {
+    color: #6F8BA4;
+    font-weight: 400;
+}
+
+.row-box1 p {
+    margin-bottom: 1rem;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6F8BA4;
+    padding: 20px;
+}
+
+.row-box2 {
+    background-color: #fff;
+    width: 49%;
+}
+
+.row-box2 p {
+    margin-bottom: 1rem;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6F8BA4;
+    padding: 20px;
+}
+/* patients section end*/
+/* partners section start*/
+#partners {
+    background-color: #fff;
+}
+
+.partners-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-head-conten {
+    text-align: center;
+    width: 50%;
+}
+
+.partners-head-conten h2 {
+    color: #223a66;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Exo 2", sans-serif;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    padding-top: 100px;
+}
+
+.partners-head-conten p {
+    margin-bottom: 2.5rem;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F8BA4;
+
+}
+
+.partners-head-conten .divider {
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.partners-logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+/* partners section end */
+/* footer section start*/
+.footer-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    border-bottom: 0.3px solid #dfe4e8;
+    margin-bottom: 75px;
+}
+
+.foot-logo {
+    width: 380px;
+    padding: 15px;
+}
+
+.foot-logo-img {
+    padding-bottom: 20px;
+}
+
+.foot-logo p {
+    margin-bottom: 1rem;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F8BA4;
+}
+
+.foot-logo ul {
+    display: flex;
+}
+
+.foot-logo ul li {
+    list-style: none;
+}
+
+.foot-logo ul li a {
+    padding-right: 15px;
+    font-size: 35px;
+    color: #6F8BA4;
+}
+
+.department {
+    width: 190px;
+    padding: 15px;
+}
+
+.department h4 {
+    color: #223a66;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.department .divider {
+    width: 40px;
+    height: 3px;
+    background-color: #e12454;
+    margin: 15px 0 25px 0;
+}
+
+.department li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.department li a {
+    text-decoration: none;
+    color: #6F8BA4;
+
+}
+
+.support {
+    width: 190px;
+    padding: 15px;
+}
+
+.support h4 {
+    color: #223a66;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.support .divider {
+    width: 40px;
+    height: 3px;
+    background-color: #e12454;
+    margin: 15px 0 25px 0;
+}
+
+.support li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.support li a {
+    text-decoration: none;
+    color: #6F8BA4;
+}
+
+.get-in-touch {
+    width: 285px;
+    padding: 15px;
+}
+
+.get-in-touch h4 {
+    color: #223a66;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.get-in-touch .divider {
+    width: 40px;
+    height: 3px;
+    background-color: #e12454;
+    margin: 15px 0 25px 0;
+}
+
+.get-in-touch h4 a {
+    text-decoration: none;
+}
+
+.contact-email {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.contact-email i {
+    font-size: 1.3rem;
+    color: #6F8BA4;
+    padding-right: 15px;
+}
+
+.contact-email span {
+    font-weight: 400;
+    color: #6F8BA4;
+    font-size: 1.1rem;
+    font-family: "Exo 2", sans-serif;
+    line-height: 1.2;
+}
+
+.contact-num {
+    padding-top: 15px;
+}
+
+.contact-num i {
+    color: #6F8BA4;
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.contact-num span {
+    font-weight: 400;
+    color: #6F8BA4;
+    font-size: 1.1rem;
+    font-family: "Exo 2", sans-serif;
+    line-height: 1.2;
+}
+
+.contact-num h4 {
+    padding-top: 5px;
+}
+/* footer section end */
+/* Copy_Write Section start*/
+.copy-write {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: #6F8BA4;
+}
+
+.copy-write-name span {
+    color: #223a66;
+    !important
+}
+
+.copy-write-name a {
+    color: #222;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* Copy_Write Section end*/

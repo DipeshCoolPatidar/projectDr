@@ -1,0 +1,256 @@
+@media (max-width:600px){
+    .container{
+        width: 100%;
+    }
+    .top-heading{
+        flex-direction: column;
+        justify-content: left;
+        padding-top: 10px;
+    }
+    .left-section{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .list-item{
+        padding-top: 0px;
+        line-height: 25px;
+        padding-left: 10px;
+    }
+    .right-top-heaging{
+        padding-left: 10px;
+    }
+    /*navigatin bar*/
+    .navbar{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .logo{
+        padding-top: 20px;
+        padding-left: 15px;
+        width: 85%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .nav-menu{
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 18px;
+        padding-top: 7px;
+        padding-bottom: 20px;
+    }
+    .nav-menu li{
+        padding: 10px;
+    }
+    nav ul {
+            flex-direction: column;
+            justify-content: left;
+            padding: 0;
+        }
+        
+    /*banner section*/
+    #banner{
+        background: none;
+    }
+    .banner-conten{
+        width: 100%;
+        padding: 10px;
+    }
+    /*feature section*/
+    .row{ 
+        width: 100%;
+
+    }
+    .card-container{  
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;   
+    }
+    .row .box{
+         width: 90%;
+         margin-bottom: 20px;
+    }
+    .box .card1{
+        width: 100%;
+    }
+    
+    /* personal car*/
+    #personal-care{
+        margin-top: 1400px;
+    }
+    .care-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row{
+        top: 0;
+    }
+    .colm{
+        width: 90%;
+       /* justify-content: center;*/
+    }
+    .colm1-img{
+        width: 100%  
+    }
+    .colm2-img{
+        width: 100%;
+    }
+    .colm3-box{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    /*counter section*/
+    .counter-img{
+        width: 100%; 
+    }
+    .counter-img .demo-counter{
+        width: 100%;
+        display: none;
+    }
+    .counter-img .demo2-counter{
+        width: 100%;
+        display: block;
+        padding: 20px;
+        
+    }
+    /* Award section*/
+    .award-section1{
+        width: 100%;
+    }
+    .award-section2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .award-main-card{
+        width: 85%;
+    }
+    .award-card{
+        flex-direction: column;
+        width: 100%;
+       /*justify-content: left;*/
+        
+    }
+    .card-head{
+        padding-left: 0;
+    }
+    /* Appoiment section*/
+    .appoiment-row{
+        flex-direction: column;
+        justify-content: left;
+        width: 95%;
+    }
+    
+    .appoiment-img{
+        width: 100%;
+    }
+    .emergency h2{
+        padding: 10px;
+        background-color: #223a66;
+        color: #fff;
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-family: "Exo 2", sans-serif;
+        line-height: 1.2;
+        
+    }
+    .appoiment-row-conten2{
+        width: 85%;
+    }
+    .appoiment-heading-form{
+        width: 100%;
+    }
+    .appoiment-heading-form h2{
+        font-size: 30px;
+    }
+    
+    .form-row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .form-colom{
+        width: 100%;
+    }
+    /* Patients section*/
+    .patient-box1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+    .patient-box1-conten{
+        width: 100%;
+    }
+    .patient-row{
+        flex-direction: column;
+        width: 85%;
+    }
+    .row-box1{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .row-box2{
+        width: 100%;
+    }
+    .box1-image-detail{
+        flex-direction: column;
+    }
+    .box1-image-detail img{
+
+    }
+    .image-box-conten{
+        padding-left: 20px;
+    }
+    .image-box-conten h4{
+        padding-top: 8px;
+    }
+    /* Partners Section*/
+    .partners-heading{
+        flex-direction: column;
+    }
+    .partners-head-conten{
+        width: 100%;
+    }
+    .partners-logo{
+        flex-direction: column;
+        /*justify-content: center;*/
+        margin: auto;
+        width: 85%;
+    }
+    .partners-logo img{
+        width: 100%;
+    }
+    /* Footer Section*/
+    .footer-row{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .foot-logo{
+        width: 85%;
+    }
+    .foot-logo img{
+        width: 100%;
+    }
+    
+    .department{
+        width: 100%;
+    }
+    .support{
+        width: 100%;
+    }
+    .get-in-touch{
+        width: 100%;
+    }
+    .contact-email{
+        flex-direction: column;
+    }
+    /* Copy_write Section*/
+    .copy-write{
+        flex-direction: column;
+    }
+}
